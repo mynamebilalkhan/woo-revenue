@@ -1,0 +1,112 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.pt-revenue-wrapper{
+     margin: 50px 0;
+     padding: 0 15px;
+}
+
+.pt-revenue-filters{
+     margin-bottom: 15px;
+}
+
+.no-column {
+     width: 40px;
+}
+
+.d-none{
+     display: none !important;
+}
+
+.pagination-area {
+     display: flex;
+     justify-content: end;
+     margin: 15px 0;
+     align-items: center;
+     gap: 15px;
+}
+
+.pagination-links * {
+     display: inline-flex;
+     width: 30px;
+     height: 30px;
+     justify-content: center;
+     align-items: center;
+     font-size: 14px;
+     color: #2271b1;
+     text-decoration: none;
+     border: 1px solid #2271b1;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+}
+
+.pagination-area .next, 
+.pagination-area .prev{
+     position: relative;
+     visibility: hidden;
+}
+
+.pagination-area .next:before {
+     content: "";
+     background-image: url(../assets/next.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 22px;
+     height: 30px;
+     width: 30px;
+     visibility: visible;
+     position: absolute;
+     border: 1px solid #2271b1;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+}
+
+.pagination-area .prev:before {
+     content: "";
+     background-image: url(../assets/previous.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 22px;
+     height: 30px;
+     width: 30px;
+     visibility: visible;
+     position: absolute;
+     border: 1px solid #2271b1;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+}
+
+.pagination-links span.page-numbers.current {
+    cursor: no-drop;
+    background-color: #cccccc47;
+    border-color: #a7a7a7;
+    color: #a7a7a7;
+}
+
+.gap-space{
+     padding: 20px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    padding-left: 20px !important;
+}
+
+span.select2-search.select2-search--inline {
+    position: relative;
+    top: -2px;
+}
+
+.pt-download-csv {
+     margin: 10px 0px;
+     float: right;
+ }
